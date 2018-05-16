@@ -1,0 +1,15 @@
+{
+  "name": "image-to-spreadsheet",
+  "version": "1.0.0",
+  "description": "Converts image data into spreadsheets using cell background colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Free for non-commerccial use",
+  "dependencies": {
+    "get-pixels": "^3.3.0"
+  }
+}

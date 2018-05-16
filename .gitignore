@@ -1,0 +1,8 @@
+node_modules/*
+results/*
+image.png
+image.jpg
+image.jpeg
+output.xml
+output.xlsx
+package-lock.json
