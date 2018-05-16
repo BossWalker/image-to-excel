@@ -17,6 +17,8 @@
 ![](https://bosswalker.github.io/image-to-excel/docs/image.png)
 ![](https://bosswalker.github.io/image-to-excel/docs/screenshot.png)
 ![](https://bosswalker.github.io/image-to-excel/docs/screenshot2.png)
+
+## Example Download for Microsoft® Excel®
 Spreadsheet: https://bosswalker.github.io/image-to-excel/docs/Output.xlsx
 
 ## Image Support
