@@ -1,5 +1,5 @@
-![](https://bosswalker.github.io/image-to-excel/github/logo-small.png)
-
+![](https://bosswalker.github.io/image-to-excel/docs/logo-small.png)
+Spreadsheet: https://bosswalker.github.io/image-to-excel/docs/Output.xlsx
 # image-to-excel
 >image-to-excel is a Node powered script that can convert the pixel data from an image to cell  background colors in Microsoft® Excel®. It is optimized to save the pixel data for only unique color values. The output is in Excel XML Format.
 
@@ -15,9 +15,9 @@
     node index.js imageFile.png
     
 ## Example Output
-![](https://bosswalker.github.io/image-to-excel/github/image.png)
-![](https://bosswalker.github.io/image-to-excel/github/screenshot.png)
-![](https://bosswalker.github.io/image-to-excel/github/screenshot2.png)
+![](https://bosswalker.github.io/image-to-excel/docs/image.png)
+![](https://bosswalker.github.io/image-to-excel/docs/screenshot.png)
+![](https://bosswalker.github.io/image-to-excel/docs/screenshot2.png)
 
 ## Image Support
 It is recommended to use smaller images as larger images can slow-down or crash Microsoft® Excel®. Recommended image sizes are \< 256px width and \< 256px height (The script can handle basically any size, but Microsoft® Excel® make take forever to load it). Be advised Microsoft® Excel® can sometimes hang at "Opening output.xml 0%" until it jumps to "Opening output.xml 100%"; if it doesn't crash it's still loading.
