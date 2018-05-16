@@ -35,7 +35,7 @@ The following have been tested and working:
  - NPM
 
 ## Why this project
-I often like to work on "fun" projects that will further expand my knowledge and create someone awesome in the process and this is one of those projects.
+I often like to work on "fun" projects that will further expand my knowledge and create something awesome in the process and this is one of those projects.
 
 ## License
 Free for non-commercial use.
