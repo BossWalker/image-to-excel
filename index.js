@@ -46,8 +46,14 @@ getPixels(ImageName, (err, pixels) => {
   console.log('Finding Unique Styles');
   const styles = [];
   const pixelData = [];
+  let lastPercent = 0;
   for (let y = 0; y < imageHeight; y += 1) {
     pixelData[y] = [];
+    const percent = parseInt((y / imageHeight) * 100, 10);
+    if (percent !== lastPercent) {
+      lastPercent = percent;
+      console.log(`${percent}%...`);
+    }
     for (let x = 0; x < imageWidth; x += 1) {
       const pixelOffset = (x * 4) + (y * imageWidth * 4);
       const r = pixels.data[pixelOffset + 0];
@@ -149,11 +155,11 @@ getPixels(ImageName, (err, pixels) => {
   // ////////////////////////////////////////////////
   const endTime = new Date();
   console.log(`Conversion took ${Math.abs(startTime - endTime)}ms`);
-  fs.writeFile('output.xml', contents, (writeErr) => {
+  fs.writeFile('Output.xml', contents, (writeErr) => {
     if (writeErr) {
       return console.log(writeErr);
     }
-    console.log('The file was saved!');
+    console.log('Output.xml Created Successfully!');
     return null;
   });
 });

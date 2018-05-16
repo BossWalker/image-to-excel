@@ -1,8 +1,8 @@
 node_modules/*
 results/*
-image.png
-image.jpg
-image.jpeg
+*.png
+*.jpg
+*.jpeg
 output.xml
 output.xlsx
 package-lock.json
